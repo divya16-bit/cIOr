@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:#9999ff">
+<div style="align:centre;">
+    <table border="1" >
+    <tr>
+        <th>STUDENTS NOT MADE AN ENTRY</th>
+        </tr>
+    {% for i in names %}
+    <tr>
+    <td>
+    {{i}}
+</td></tr>
+    {% endfor %}
+</table>
+    </div>
+    <hr>
+    <h1>RECORD TABLE</h1>
+    <table border="1">
+        <tr>
+            <th>FIRST NAME</th>
+            <th>LAST NAME</th>
+            <th>ROLL NUMBER</th>
+            <th>DATE OF ENTRY</th>
+            <th>TIME OF ENTRY</th>
+        </tr>
+    {% for results in results %}
+    <tr>
+        <td>{{results.0}}</td>
+        <td>{{results.1}}</td>
+        <td>{{results.2}}</td>
+        <td>{{results.3}}</td>
+        <td>{{results.4}}</td>
+    </tr>
+    {% endfor %}
+</table>
+</body>
+</html>
