@@ -6,11 +6,11 @@ For more understanding, read the documentation:
 https://docs.google.com/document/d/118EXqDeInyyDcf5i63gyNserFIO84rUX/edit?usp=sharing&ouid=107313453489928470747&rtpof=true&sd=true
 
 Coding and Implementation done by:
-Divya Gandhi(me)
+Divya Gandhi(me) ,
 Samridhi Garg
 
 Documentation and project report by:
-Vartika Shakya
+Vartika Shakya ,
 Prachie Sethi
 
 
